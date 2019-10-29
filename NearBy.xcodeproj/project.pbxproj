@@ -89,6 +89,23 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		FA6B940A23685D0400749C47 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FA92C7262366CE4F00348C82 /* HomeViewController.swift */,
+				FA92C753236702FD00348C82 /* HomeViewController + Extensions.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FA6B940B23685D1400749C47 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				FA92C7452366F71C00348C82 /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 		FA92C7162366CE4F00348C82 = {
 			isa = PBXGroup;
 			children = (
@@ -152,9 +169,8 @@
 		FA92C7412366F62C00348C82 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FA92C7262366CE4F00348C82 /* HomeViewController.swift */,
-				FA92C753236702FD00348C82 /* HomeViewController + Extensions.swift */,
-				FA92C7452366F71C00348C82 /* SplashViewController.swift */,
+				FA6B940A23685D0400749C47 /* Home */,
+				FA6B940B23685D1400749C47 /* Splash */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -488,6 +504,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QX9AC3J6FG;
 				INFOPLIST_FILE = NearBy/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -507,6 +524,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QX9AC3J6FG;
 				INFOPLIST_FILE = NearBy/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

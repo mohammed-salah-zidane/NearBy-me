@@ -13,7 +13,6 @@ import Toast_Swift
 
 extension HomeViewController {
     
-    
     func initTableView(){
         //tabe view data source and deleget
         venuesTableView.delegate = self
@@ -64,15 +63,15 @@ extension HomeViewController {
     }
     //Mark:- switch update mode (Realtime or Single)
     func switchStatus(message:String?){
-        AlertManager.showAlert(message ?? "switch update mode or cancel and use the default", inViewController: self) { (updateStatus) in
+        AlertManager.showAlert(message ?? "Switch update mode or cancel and use the default", inViewController: self) { (updateStatus) in
             switch updateStatus{
-            case .realTime :
+            case .realTime? :
                 //perform update for realTime mode
                 self.statusMode = .realTime
                 Constants.userDefaults.setStatus(.realTime)
                 self.changetitle()
                 
-            case .singleUpdate :
+            case .singleUpdate? :
                 //perform update for single mode
                 self.statusMode = .singleUpdate
                 Constants.userDefaults.setStatus(.singleUpdate)

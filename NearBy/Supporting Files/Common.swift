@@ -12,8 +12,8 @@ import UIKit
 
 class Constants{
     static let mainStoryBoard = UIStoryboard(name: "Main", bundle: nil)
-    static let fourSquareClientID = "FVVQTJG2OULQGYMAQBTCSPSWBPG1RRDCJ5YIXGN41RUS00QW"
-    static let fourSquarClientSceret = "IHX5IWANVZCSF4IBXLGTDNOKDDWSCTATJUGWKSESKB0XPFNK"
+    static let fourSquareClientID = "Z0B2YIG224O2DJXSUDCSBZ1T3NS1HJWR21FGNQC0XNEP1XYB"
+    static let fourSquarClientSceret = "FAIOI5QQB3U4KFJ4DD54TGXW00LUFOJ5DK53QVGHUDIW3RGG"
     static let BASE_URL = "https://api.foursquare.com/v2/venues/"
     static let userDefaults = UserDefaults.standard
 }
